@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.bedework</groupId>
+    <groupId>org.bedework.deploy</groupId>
     <artifactId>bw-wildfly-galleon-feature-packs</artifactId>
     <version>4.0.1-SNAPSHOT</version>
   </parent>
@@ -15,9 +15,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.bedework.bw-tzsvr</groupId>
+      <groupId>org.bedework.deploy</groupId>
       <artifactId>bw-wf-timezone-server-feature-pack</artifactId>
-      <type>pom</type>
+      <type>zip</type>
     </dependency>
 
     <!-- ================= bw-notifier ================= -->

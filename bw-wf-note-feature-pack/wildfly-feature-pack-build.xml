@@ -14,9 +14,9 @@
   ~ limitations under the License.
   -->
 
-<build xmlns="urn:wildfly:feature-pack-build:3.2" producer="org.bedework.notifier:bw-wf-note-feature-pack">
+<build xmlns="urn:wildfly:feature-pack-build:3.2" producer="org.bedework.deploy:bw-wf-note-feature-pack">
     <dependencies>
-        <dependency group-id="org.bedework.bw-tzsvr" artifact-id="bw-wf-timezone-server-feature-pack">
+        <dependency group-id="org.bedework.deploy" artifact-id="bw-wf-timezone-server-feature-pack">
             <name>org.bedework.bw-tzsvr:bw-wf-timezone-server-feature-pack</name>
             <default-configs inherit="false"/>
             <packages inherit="false"/>

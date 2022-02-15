@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.bedework</groupId>
-    <artifactId>bw-xml</artifactId>
-    <version>5.0.0-SNAPSHOT</version>
+    <groupId>org.bedework.deploy</groupId>
+    <artifactId>bw-wildfly-galleon-feature-packs</artifactId>
+    <version>4.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>bw-wf-xml-feature-pack</artifactId>
@@ -17,9 +17,9 @@
     <!-- Feature pack(s) -->
 
     <dependency>
-      <groupId>org.bedework</groupId>
+      <groupId>org.bedework.deploy</groupId>
       <artifactId>bw-wf-core-feature-pack</artifactId>
-      <type>pom</type>
+      <type>zip</type>
     </dependency>
 
     <!-- ================= bw-xml ================= -->
